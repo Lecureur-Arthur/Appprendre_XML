@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bibliotheque (alle+)>
+<!ELEMENT allee (rayon+)>
+<!ELEMENT rayon (ouvrage*)>
+<!ELEMENT ouvrage (types)>
+<!ELEMENT types (#PCDATA)>
+
+
+<!ATTLIST allee numeroA CDATA #REQUIRED>
+<!ATTLIST rayon numeroR CDATA #IMPLIED>
+<!ATTLIST ouvrage titre CDATA #REQUIRED>
+<!ATTLIST ouvrage auteur CDATA #IMPLIED>
+<!ATTLIST ouvrage numeroO CDATA #IMPLIED>
+<!ATTLIST types typesOuvrage (litterature | manuelScolaire | periodique | scienceEtTechnique) #REQUIRED>
