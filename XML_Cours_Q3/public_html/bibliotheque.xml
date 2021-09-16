@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE marqueur SYSTEM "bibliotheque.dtd">
+
+<bibliotheque>
+    <allee numero="1">
+        <rayon numero="1">
+            <ouvrage titre="Le papillon" auteur="Bernard WERBER">
+                <types typesOuvrage="litterature"></types>
+            </ouvrage>
+            <ouvrage titre="Les Formes de base" auteur="Daniele Dumont">
+                <types typesOuvrage="manuelScolaire"></types>     
+            </ouvrage>
+            <ouvrage titre="XML et XSL : Les feuilles de style XML" auteur="Cyril Vincent">
+                <types typesOuvrage="scienceEtTechnique"></types>
+            </ouvrage>
+        </rayon>
+        <rayon numero="2">
+            <ouvrage titre="LINUX Magazine" numero="102">
+                <types typesOuvrage="periodique"></types>
+            </ouvrage>
+            <ouvrage titre="Closer">
+                <types typesOuvrage="periodique"></types>
+            </ouvrage>
+            <ouvrage titre="Harry Potter" auteur="JK Rollin" numero="1">
+                <types typesOuvrage="litterature"></types>      
+            </ouvrage>
+        </rayon>
+    </allee>
+    <allee numero="2">
+        <rayon numero="1">
+            <ouvrage titre="Jeu de nains" auteur="Terry Pratchett" numero="31">
+                <types typesOuvrage="litterature"></types>       
+            </ouvrage>
+        </rayon>
+        <rayon numero="2">
+            <ouvrage titre="Fondation" auteur="Isaac Asimov" numero="2">
+                <types typesOuvrage="litterature"></types>       
+            </ouvrage>
+            <ouvrage titre="Ajax, JQuery et PHP" auteur="Jean-marie Defrance">
+                <types typesOuvrage="scienceEtTechnique"></types>
+            </ouvrage>
+        </rayon>
+    </allee>
+</bibliotheque>
