@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!ELEMENT marqueur (couleur, marque)>
-<!ELEMENT couleur (#PCDATA)>
-<!ELEMENT marque (#PCDATA)>
-
-
-<!ATTLIST marqueur persistence (effacable | indelebile)  #REQUIRED>
-<!ATTLIST marqueur typePointe (rond | fin | bizeaute)  #IMPLIED>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE marqueur SYSTEM "marqueur.dtd">
-
-<marqueur persistence="effacable" typePointe="bizeaute">
-    <couleur>Rouge</couleur>
-    <marque>bic</marque>
-</marqueur>
