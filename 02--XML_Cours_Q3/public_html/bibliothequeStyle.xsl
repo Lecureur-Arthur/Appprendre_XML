@@ -35,7 +35,7 @@
         <xsl:value-of select="@numero" />
         </p>
         
-        <table border="0">
+        <table border="1" style="border-collapse : collapse">
             <tr>
                 <th style="font-weight: bold;">Categorie de l'ouvrage</th>
                 <th style="font-weight: bold;">Titre</th>
